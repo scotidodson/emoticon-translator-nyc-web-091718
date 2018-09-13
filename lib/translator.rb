@@ -13,7 +13,7 @@ def load_library(path)
 end 
 
 def get_japanese_emoticon(path, emoticon)
-  puts load_library(path)
+  load_library(path)
   
   puts emoticons["get_emoticon"]
   binding.pry 
