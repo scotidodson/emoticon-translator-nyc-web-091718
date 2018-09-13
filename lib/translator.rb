@@ -15,7 +15,8 @@ end
 def get_japanese_emoticon(path, emoticon)
   puts load_library(path)
   
-  return emoticons["get_emoticon"][emoticon]
+  puts emoticons["get_emoticon"]
+  binding.pry 
   # accepts two arguments, the YAML file path and the emoticon (FAILED - 1)
   # calls on #load_library and gives it the argument of the file path (FAILED - 2)
   # returns the Japanese equivalent of an English grinning (FAILED - 3)
