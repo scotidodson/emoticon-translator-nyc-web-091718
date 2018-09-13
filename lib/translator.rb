@@ -9,11 +9,11 @@ def load_library(path)
     emoticons["get_emoticon"][e] = j
     emoticons["get_meaning"][j] = name 
   end 
-  return emoticons
+  emoticons
 end 
 
 def get_japanese_emoticon(path, emoticon)
-  load_library(path)
+  emoticons = load_library(path)
   
   puts emoticons["get_emoticon"]
   binding.pry 
