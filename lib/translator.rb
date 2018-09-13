@@ -9,7 +9,7 @@ def load_library(path)
     emoticons["get_emoticon"][e] = j
     emoticons["get_meaning"][j] = name 
   end 
-  emoticons
+  return emoticons
 end 
 
 def get_japanese_emoticon(path, emoticon)
