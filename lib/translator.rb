@@ -15,7 +15,12 @@ end
 def get_japanese_emoticon(path, emoticon)
   emoticons = load_library(path)
   
-  emoticons["get_emoticon"][emoticon]
+  
+  if emoticons["get_emoticon"][emoticon].nil?
+    "I'm sorry"
+  else 
+    emoticons["get_emoticon"][emoticon]
+  end 
   # accepts two arguments, the YAML file path and the emoticon (FAILED - 1)
   # calls on #load_library and gives it the argument of the file path (FAILED - 2)
   # returns the Japanese equivalent of an English grinning (FAILED - 3)
