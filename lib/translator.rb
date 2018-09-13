@@ -17,7 +17,7 @@ def get_japanese_emoticon(path, emoticon)
   
   
   if emoticons["get_emoticon"][emoticon].nil?
-    "I'm sorry"
+    "Sorry, that emoticon was not found"
   else 
     emoticons["get_emoticon"][emoticon]
   end 
