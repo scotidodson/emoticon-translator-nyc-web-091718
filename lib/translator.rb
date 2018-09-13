@@ -9,7 +9,7 @@ def load_library(path)
 
   end 
   
- 
+ emoticons
   #the keys inside the 'get_meaning' hash are the Japanese emoticons (FAILED -5)
   #the emoticon keys inside the 'get_meaning' hash point to their meanings (FAILED - 6)
   #the keys inside the 'get_emoticon' hash are the English emoticons (FAILED -7)
